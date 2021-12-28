@@ -1,0 +1,40 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #code {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 15px 15px
+    }
+    
+    .text textarea {
+        width: 450px;
+        height: 300px;
+        border: 2px solid #555;
+        background-color: #ddd;
+        font-size: 20px;
+    }
+    
+    textarea:focus {
+        background-color: #ddf;
+    }
+    
+    .brand {
+        margin-left: 30px;
+    }
+    
+    div span {
+        color: #555;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    iframe {
+        height: 200px;
+        width: 97%;
+        margin: 10px 15px 10px 15px;
+        background-color: hsl(226deg 13% 75%);
+    }
